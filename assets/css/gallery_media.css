@@ -1,0 +1,87 @@
+
+@charset "utf-8";
+/* CSS Document */
+img, video, canvas {
+    max-width: 100%;
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 980px){
+
+}
+@media screen and (max-width: 786px){
+
+
+}
+@media screen and (max-width: 760px){
+
+}
+@media screen and (max-width: 640px){
+    .gallery {
+        width: 273px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    .gallery {
+        width: 100%;
+        margin:16px auto 32px;
+        display:block;
+        clear: both;
+        float:none;
+    }
+
+    .galleryOverlay {
+        top: 0px;
+        left: 0px;
+        height:auto;
+        width:auto;
+        display:block;
+    }
+    .galleryOverlay a {
+        height: auto;
+        width: 100%;
+        display:block;
+    }
+    .galleryImgCont {
+        height: auto;
+        width: 100%;
+        display:block;
+        float:left;
+        border:none;
+    }
+    .galleryImgCont a {
+        position:relative;
+        height: auto;
+        width: 100%;
+        display:block;
+        float:left;
+        overflow:visible;
+    }
+    .galleryImgCont a img {
+        width:100%;
+        height:auto;
+    }
+    .galleryHeader {
+        float:left; height:auto;
+    }
+    .galleryPosted {
+        float:left;margin-top:0;
+    }
+
+}
+@media screen and (max-width: 360px){
+
+
+}
+
+
+
+
+
+
+
+
+

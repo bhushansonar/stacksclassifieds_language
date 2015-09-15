@@ -1,0 +1,602 @@
+@charset "utf-8";
+
+/*							table csss 										*/
+
+
+td {
+    font: 11pt/1.4em arial;
+}
+
+h2 {
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+
+.CentralView h1 {
+}
+
+
+a {
+    color: #00f;
+}
+
+.count {
+    color: #fac968;
+    font: bold 7pt arial;
+    padding-left: 2px;
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+
+
+}
+.pagination {
+    text-align: center;
+}
+.pagination span, .pagination a {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #00c;
+    box-shadow: 2px 2px 5px #ccc;
+    line-height: 30px;
+    padding: 0.2em 0.6em;
+    text-decoration: none;
+}
+.pagination span {
+    border: 1px solid #666;
+    box-shadow: none;
+    color: #666;
+}
+.pagination span:hover, .pagination a:hover {
+    border: 1px solid #ccc;
+    box-shadow: none;
+    color: #ccc;
+}
+
+
+
+@media screen and (max-width: 735px) {
+
+
+}
+@media screen and (max-width: 520px) {
+
+
+}
+@media screen and (max-width: 500px) {
+
+}
+
+@media screen and (max-width: 500px) {
+
+    body {
+        min-width: 0 !important;
+    }
+    .mainBody > div > h3 + div > div {
+        width: auto !important;
+    }
+    #PostNationalAdPPI table tr td {
+        display: table-row;
+        width: 100%;
+    }
+    #PostNationalAdPPI table tr td img[src*="spacer.gif"], #widgetDemo2, #widgetDemo3, #widgetDemo5, #siteList {
+        display: none;
+    }
+}
+#premiumVideos, #deletedImages {
+    clear: both;
+    margin: 1em 0;
+}
+#premiumVideos ul, #deletedImages ul {
+    list-style-type: none;
+    margin: 1em 0 0;
+    padding: 0;
+}
+#premiumVideos li, #deletedImages li {
+    float: left;
+    font-size: 10px;
+    list-style-type: none;
+    margin: 0 1.5em 1.5em 0;
+}
+#premiumVideos .modLog, #deletedImages .modLog {
+    color: #678;
+    font-size: 11px;
+    line-height: 14px;
+    margin-top: -10px;
+    text-align: center;
+}
+#premiumVideos img {
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 100px;
+    min-width: 100px;
+}
+#premiumVideos:after {
+    clear: both !important;
+    content: "";
+    display: block;
+}
+#seeMorePremiumContainer:after {
+    clear: left;
+    content: "";
+    display: block;
+}
+#seeMorePremiumContainer .premiumVideoPlayer {
+    background-color: white;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.helperLinks span:nth-of-type(2) {
+    font-size: 1.2em;
+}
+#index.error {
+    background: none repeat scroll 0 0 #fff;
+    font-family: "trebuchet ms",verdana,arial,helvetica,helv,swiss,sans,sans-serif;
+}
+#index.error .mainContainer {
+    color: #000;
+    margin: 0 auto;
+    width: 680px;
+}
+#index.error .mainContainer h3 {
+    border-bottom: 2px solid #3563a8;
+}
+#index.error .mainContainer p:first-of-type {
+    font-size: 12pt;
+    margin: 3em 1em;
+}
+#index.error .mainContainer p:last-of-type {
+    color: #506fa3;
+    font-size: 10px;
+    text-align: center;
+}
+#index.error .mainContainer ul.footerLinks {
+    border-top: 2px solid #3563a8;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#index.error .mainContainer ul.footerLinks a {
+    color: #84a6d8;
+}
+#adManagementHeader {
+    margin-bottom: 5px;
+}
+#adManagementLinks {
+    display: inline-block;
+}
+.expirationData {
+    border: 1px solid #4e6bab;
+    float: right;
+    font-size: 12px;
+    padding: 6px;
+}
+@media screen and (max-width: 500px) {
+    .expirationData {
+        clear: both !important;
+        display: inline-block;
+        float: none !important;
+    }
+    #adManagementLinks {
+        display: block;
+    }
+    .editAdField .header .descriptionButtons {
+        display: none;
+    }
+}
+.editAdField {
+    clear: both;
+    color: #000000;
+    font: 10pt arial;
+    margin-bottom: 1.5em;
+    margin-right: 10px;
+    max-width: 620px;
+    width: 95%;
+}
+#EmailAd form textarea, #EmailAd form input[type="text"], .editAdField textarea, .editAdField input[type="text"] {
+    max-width: 620px;
+    width: 95%;
+}
+.editAdField input.smallInput {
+    width: 70px;
+}
+@media screen and (max-width: 130px) {
+    .editAdField input.smallInput {
+        width: 95%;
+    }
+}
+.editAdField input.mediumInput {
+    width: 275px;
+}
+@media screen and (max-width: 325px) {
+    .editAdField input.mediumInput {
+        width: 95%;
+    }
+}
+.editAdField input.largeInput {
+    width: 95%;
+}
+.editAdField .header {
+    font-size: 13pt;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+.editAdField .header .new {
+    color: red;
+    font-size: 10pt;
+    font-weight: bold;
+}
+.editAdField .header .notes {
+    font-size: 10pt;
+    font-style: italic;
+    font-weight: normal;
+}
+.editAdField .header .descriptionButtons {
+    float: right;
+    margin-bottom: inherit;
+    padding-right: 1em;
+}
+.editAdField .content {
+    margin-bottom: 0.2em;
+}
+.editAdField .content .required {
+    background-color: #ffffb9;
+}
+.editAdField .content .padBottom {
+    margin-bottom: 0.5em;
+}
+.editAdField .content .flow {
+    display: inline-block;
+    margin-right: 1em;
+}
+@media screen and (max-width: 450px) {
+    .editAdField .content .flow {
+        display: block;
+    }
+    .editAdField .content .flow:first-child {
+        margin-bottom: 0.5em;
+    }
+}
+.editAdField .content .description {
+    height: 200px;
+}
+.editAdField .content .preference {
+    display: inline-block;
+    margin-right: 1em;
+}
+.editAdField .content #noInquiriesCaveat {
+    color: #0000ff;
+}
+body#Contact .linkToAd input, body#Contact .contactMsg textarea {
+    max-width: 620px;
+    width: 95%;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+#viewAdPhotoLayout img {
+}
+.post_li {
+    line-height: 140%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.post_li:first-child {
+    margin-top: 0;
+}
+.wbr:after {
+    content: "â€‹";
+}
+a#emailThisAd, p.replyDisplay a, #postingTitle a#reportAdButton {
+    background-color: #a5b8da;
+    background-image: linear-gradient(to bottom, #a5b8da, #7089b3);
+    border: 1px solid #7eb9d0;
+    border-radius: 12px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 12px !important;
+    font-weight: bold;
+    line-height: 1 !important;
+    padding: 4px 8px !important;
+    text-decoration: none;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+}
+a#emailThisAd:hover, p.replyDisplay a:hover, #postingTitle a#reportAdButton:hover {
+    background-color: #819bcb;
+    background-image: linear-gradient(to bottom, #819bcb, #536f9d);
+    border: 1px solid #5ca6c4;
+}
+p.replyDisplay a {
+    color: #fff;
+    text-decoration: none;
+}
+.imageHeadlineLinks {
+    display: block !important;
+    margin: 10px !important;
+}
+#header {
+    background-color: #fff;
+    border-bottom: 2px solid #4668a8;
+    padding: 6px;
+}
+#header h1 {
+    display: inline-block;
+    margin-right: 20px;
+}
+#header form {
+    display: inline-block;
+    height: 30px;
+    position: relative;
+    vertical-align: bottom;
+}
+#login {
+    float: right;
+    line-height: 49px;
+    margin-right: 12px;
+}
+#postingCredits {
+    float: right;
+    font-weight: bold;
+    padding: 4px 18px 4px 4px;
+}
+#navBack {
+    font-weight: bold;
+    padding: 4px;
+}
+#subuserAccounts {
+    margin: 36px 10% 12px;
+}
+#requestAccount {
+    color: #000;
+}
+#tableWrapper {
+    margin: 0 auto;
+    padding-top: 12px;
+    width: 75%;
+}
+#tableTopper {
+    margin: 22px auto 0;
+}
+#adPost, #userPosting {
+    float: right;
+}
+#currentUser {
+    color: #4668a8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#dataTable {
+    margin: 6px auto 18px;
+}
+#UserSearch #dataTable {
+    clear: both;
+    margin: 0 auto;
+    width: 75%;
+}
+#dataTable table {
+    width: 100%;
+}
+#dataTable tr {
+}
+#dataTable a {
+    color: #000;
+}
+#dataTable th a {
+    color: #fff;
+}
+#adsFound {
+    font-weight: bold;
+    margin-top: 6px;
+}
+#adsFound td {
+    background-color: #fff;
+}
+#footer, #textNavFooter {
+    clear: both;
+    font-weight: bold;
+    margin: 24px auto;
+    text-align: center;
+}
+#footer a, #textNavFooter a {
+    color: #000;
+}
+.affPgm {
+    font-size: 1em;
+    margin: 1em 4em;
+}
+.clear {
+    clear: both;
+}
+@media screen and (max-width: 900px) {
+    #nextPageLink {
+        display: none;
+    }
+    #login #loggedInAs {
+        display: none;
+    }
+    #login #email {
+        display: initial !important;
+    }
+    #userPosting {
+        display: none;
+    }
+    #manageAds #mobile {
+        display: block !important;
+    }
+    #manageAds #standard {
+        display: none;
+    }
+    #manageAds a {
+        color: #000;
+    }
+    .manageAdTitle {
+        font-size: 1.5em;
+        font-weight: 700;
+        margin: 0 0 5px;
+    }
+    .manageAdBox {
+        margin: 5px;
+        padding: 5px;
+    }
+    .manageAdBox .manageAdBoxDetails {
+        margin: 0 0 10px;
+        overflow: hidden;
+    }
+    .manageAdBox .manageAdBoxDetails .adDetails {
+        font-size: 1.25em;
+        line-height: 1.25;
+        margin: 0 0 4px;
+    }
+    .manageAdBox .manageAdBoxDetails .adDetails .infoBlock {
+        background: none repeat scroll 0 0 #5c80bb;
+        border-radius: 2px;
+        color: #fff;
+        display: inline-block;
+        font-size: 0.7em;
+        font-style: italic;
+        line-height: 1.25em;
+        margin-right: 4px;
+        min-width: 60px;
+        padding: 3px 6px;
+        text-align: center;
+        vertical-align: text-bottom;
+    }
+    .manageAdBox .manageAdBoxBtm h3 {
+        color: #ededed;
+        float: left;
+        margin: 4px 0;
+        max-width: 65%;
+    }
+    .manageAdBox .manageAdBoxBtm h3 .adStatus {
+        color: #333;
+        display: block;
+        float: left;
+        font-weight: 400;
+        margin-right: 3px;
+    }
+    .manageAdBox .manageAdBoxBtm h3 .adStatusText {
+        color: #212121;
+        display: block;
+        float: left;
+        overflow: hidden;
+    }
+    .manageAdBox.bgLive {
+        background: none repeat scroll 0 0 #bcd;
+    }
+    .manageAdBox.bgExpired {
+        background: none repeat scroll 0 0 #0b5;
+    }
+    .manageAdBox.bgPending {
+        background: none repeat scroll 0 0 #def;
+    }
+    .manageAdBox.bgUnderReview {
+        background: none repeat scroll 0 0 #fc6;
+    }
+    .manageAdBox.bgGhost {
+        background: none repeat scroll 0 0 #cc9;
+    }
+    .manageAdBox.bgOffline, .manageAdBox.bgSpam, .manageAdBox.bg404, .manageAdBox.bgCommunityRemoved {
+        background: none repeat scroll 0 0 #ff4347;
+    }
+    .manageAdBox.bgRemovedbyMe {
+        background: none repeat scroll 0 0 #a79dff;
+    }
+    #manageAds .adManageSubmit {
+        background: none repeat scroll 0 0 #4f73ae;
+        border-radius: 7px;
+        color: #fff;
+        display: block;
+        float: right;
+        font-size: 1.05em;
+        font-weight: 700;
+        line-height: 1em;
+        margin: 4px 0 0;
+        outline: 0 none;
+        padding: 6px 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .manageAdBoxBtm {
+        background: none repeat scroll 0 0 rgba(4, 4, 4, 0.08);
+        margin: 0 -5px -5px;
+        padding: 5px;
+    }
+    div#tableWrapper {
+        margin: 0 auto;
+        width: calc(100% - 10px);
+    }
+    #manageAdHeader {
+        background: none repeat scroll 0 0 #ddd;
+        font-size: 13px;
+        margin: 0 5px;
+        padding: 4px;
+    }
+    #manageAdHeader p.paginationDetails {
+        color: #333;
+        /*        float: left;*/
+        margin: 0 10px 0 0 !important;
+    }
+    #manageAdHeader a {
+        box-shadow: none !important;
+        color: #333 !important;
+        text-decoration: none;
+    }
+    #manageAdHeader:after {
+        clear: both;
+        content: " ";
+        direction: ltr;
+        display: block;
+        height: 0;
+        text-indent: -9999em;
+    }
+    div#manageAdHeader div#adsFound {
+        font-weight: 400;
+        margin: 0;
+    }
+    div#manageAdHeader div.pagination {
+        font-size: 13px;
+        /*        text-align: right;*/
+    }
+    div#manageAdHeader div.pagination span.currentPage {
+        color: #000;
+        font-weight: 700;
+    }
+    div#manageAdHeader a.pagination, div#manageAdHeader div.pagination span {
+        background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+        border: medium none;
+        margin: 0 1px 0 0;
+        padding: 0;
+        text-decoration: none;
+        transition: all 0.03s linear 0s;
+    }
+    div#manageAdHeader div.pagination .pagination.number, div#manageAdHeader div.pagination span.currentPage {
+        display: inline-block !important;
+    }
+}
+
+#ManageAds #loginForm form {
+    display: block;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

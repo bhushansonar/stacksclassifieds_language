@@ -1,0 +1,67 @@
+.gallery {display:block;float:left;width:202px; height:250px; position: relative; padding:0; margin:16px 16px 24px;}
+.galleryImage {display:block;}
+.galleryHeader {display:block;font-size:0.9em; margin-top:4px;line-height:11pt;height:29px;overflow:hidden;}
+.galleryPosted {display:block;margin:0.5em 0;color:#999;font-size:0.72em;}
+.galleryImgCont {height:200px; width:200px; position:relative; border:0px solid #999; background-color: #FFF;}
+.galleryImgCont a {position: absolute; height:200px;width:200px; overflow:hidden; left:0px; top:0px; text-decoration: none;
+                   display:-ms-flexbox;
+                   -ms-flex-pack:center;
+                   -ms-flex-align:center;
+                   display:-moz-box;
+                   -moz-box-pack:center;
+                   -moz-box-align:center;
+                   display:-webkit-box;
+                   -webkit-box-pack:center;
+                   -webkit-box-align:center;
+                   display:box;
+                   box-pack:center;
+                   box-align:center;
+}
+.galleryImgCont img {position: relative;display:block; border:0;}
+.galleryImgCont a.galleryImage.vert img {height:100%;}
+.galleryImgCont a.galleryImage.horiz img {width:100%;}
+.galleryOverlay {position: absolute; top:-25px; left:-25px; width:250px; height:250px;z-index:99;border:1px solid #999;background-color: #FFF; box-shadow: 0 0 7px #666;}
+.galleryOverlay a {position: absolute; height:250px;width:250px; overflow:hidden; left:0px; top:0px; text-decoration:none;
+                   display:-ms-flexbox;
+                   -ms-flex-pack:center;
+                   -ms-flex-align:center;
+                   display:-moz-box;
+                   -moz-box-pack:center;
+                   -moz-box-align:center;
+                   display:-webkit-box;
+                   -webkit-box-pack:center;
+                   -webkit-box-align:center;
+                   display:box;
+                   box-pack:center;
+                   box-align:center;
+}
+.galleryOverlay img {position: relative;display:block; border:0;}
+
+.ie7 .galleryOverlay a,
+.ie7 .galleryImgCont a,
+.ie8 .galleryOverlay a,
+.ie8 .galleryImgCont a,
+.ie9 .galleryOverlay a,
+.ie9 .galleryImgCont a {
+    position:relative;
+}
+.ie7 .galleryOverlay a img,
+.ie7 .galleryImgCont img,
+.ie8 .galleryOverlay a img,
+.ie8 .galleryImgCont img,
+.ie9 .galleryOverlay a img,
+.ie9 .galleryImgCont img {
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.galleryDots {position:absolute; bottom:0; left:0; width:100%; text-align:center;}
+.galleryDots span {margin:2px; color:#999; text-decoration:none;font-size:14pt;}
+.galleryDots span.active {color: #333;}
+.gallery_z-index{
+    z-index: 20;
+}
